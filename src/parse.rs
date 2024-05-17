@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::{self, BufRead, Write};
-use std::path::Path;
 
 const ICS_FILE: &str = "calendar.ics";
 const OUTPUT_FILE: &str = "filtered_calendar.ics";
