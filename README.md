@@ -42,9 +42,11 @@ This project is a webserver built in Rust using the Actix-web framework. The web
   ```
 
 2. Access the .ics file:
-  The .ics file will be served at ```http://localhost:8000/calendar.ics``` so you are going to need to port-forward & then the file should be accessable from anywhere at ```http://[YOUR-IP]:[YOUR-PORT]/calendar.ics```.
+- The .ics file will be served at ```http://localhost:8000/calendar.ics```
+- To access and use the file, you are going to need to port-forward.
+- After you have port-forwarded, the file will be served at ```http://[YOUR-IP]:[YOUR-PORT]/calendar.ics```.
 
-3. Add the .ics file to Google Calendar:
+4. Add the .ics file to Google Calendar:
 
 - Open Google Calendar.
 
